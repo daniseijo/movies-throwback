@@ -53,7 +53,6 @@ export default function Autocomplete() {
           onValueChange={(value) => {
             setValue(value)
           }}
-          // disabled={!ready}
           placeholder="Search a movie"
         />
         <CommandList>

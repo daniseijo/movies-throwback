@@ -27,7 +27,7 @@ export default function MoviePanel({ className, onCommand }: MoviePanelProps) {
   const { movie } = useMovie()
 
   return (
-    <button className={cn(className, 'border rounded-lg relative w-48 h-72')} onClick={onCommand}>
+    <button className={cn(className, 'border rounded-lg relative')} onClick={onCommand}>
       {movie ? (
         <div className="p-1">
           <Kbd letter={COMMAND_KEY} className="absolute right-0 top-0 m-3" />
